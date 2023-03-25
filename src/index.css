@@ -1,0 +1,129 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.site-container {
+  min-height: 100vh;
+}
+
+.contenedor{
+  /* background-color: red; */
+  margin: 20px 75px;
+}
+
+main {
+  flex: 1;
+}
+
+.btn-primary{
+  background-color: rgb(87, 98, 252);
+  color: #fff;
+}
+/* this was not in the video DOWN*/
+.btn-outline-primary{
+  border: solid 1px #fff;
+}
+.btn-outline-primary:hover{ 
+  border: solid 1px #fff;
+  background-color: rgb(93, 103, 249);
+}
+/* this was not in the video UP*/
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* background-color: #a0a0a0; */
+}
+
+.products-info{
+  margin-left: 75px;
+  margin-right: 75px;
+}
+
+.rating span {
+  color: #ffc000;
+}
+
+.product {
+  border: 1px #ccc solid;
+  margin: 1rem;
+}
+
+.product img {
+  width: 100%;
+  max-width: 400px;
+}
+
+.product-info {
+  padding: 1rem;
+}
+
+.img-large {
+  max-width: 73%;
+  /*en el video estaba 100%*/
+}
+
+.img-thumbnail {
+  height: 80px;
+}
+
+.small-container {
+  max-width: 600px;
+}
+
+.checkout-steps>div {
+  border-bottom: 0.2rem solid #a0a0a0;
+  color: #a0a0a0;
+}
+
+.checkout-steps>div.active {
+  border-bottom: 0.2rem solid #f08000;
+  color: #f08000;
+}
+
+/* sidebar */
+.navbar-brand {
+  font-weight: bold;
+}
+
+.side-navbar {
+  width: 240px;
+  height: 100%;
+  position: absolute;
+  left: -300px;
+  background-color: #fff;
+  transition: 0.5s;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+
+
+.site-container {
+  transition: 0.4s;
+}
+
+.active-cont {
+  margin-left: 240px;
+}
+
+.active-nav {
+  left: 0;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+/* I put these  */
+.side-navbar strong {
+  color: #000;
+}
+header i{
+  color: #fff;
+}

@@ -1,0 +1,47 @@
+.slider{
+    height: calc(100vh - 80px);
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.slider .container-slider{
+    width: 300vw;
+    display: flex;
+    height: 100%;
+    overflow: hidden;
+    transition: all 1s ease;
+}
+
+.slider .container-slider img{
+    width: 100vw;
+    height: 100%;
+    object-fit: cover;
+}
+
+.slider .icons{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: 30px;
+    width: fit-content;
+    gap: 10px;
+    display: flex;
+}
+
+.slider .icons .icon{
+    width: 50px;
+    height: 50px;
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.slider .icons .icon:hover{
+    background-color: white;
+    opacity: 0.5;
+}
+
